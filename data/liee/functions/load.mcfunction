@@ -11,6 +11,7 @@ scoreboard objectives add liee.chest dummy
 scoreboard objectives add liee.legs dummy
 scoreboard objectives add liee.feet dummy
 
+##disable for mode 2
 #update timestamp scoreboard
 scoreboard objectives add liee.time dummy
 scoreboard players set current= liee.time 0
