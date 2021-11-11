@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"base": {
+			"trigger": "minecraft:location"
+		},
+		"change": {
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"rewards": {
+		"function": "liee:inventory_changed"
+	}
+}
