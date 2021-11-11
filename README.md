@@ -2,7 +2,7 @@
 
 This is a utility based on a concept by [Moleman/Eris](https://twitter.com/erismakesmaps) that can differentiate unique pieces of equipment without nbt checks.
 
-Generally the use case for this is fairly niche, but the performance gains if use correctly are sizable, even when running constantly [(see modes)](https://github.com/gibbsly/liee#modes) the system is dramatically less intensive than a single nbt check.
+Generally the use case for this is fairly niche, but the performance gains if used correctly are sizable, even when running constantly [(see modes)](https://github.com/gibbsly/liee#modes) the system is dramatically less intensive than a single nbt check.
 
 ## Use 
 This pack relies on modifying the luck attributes of items to specify ids, so if you use luck in any capacity then using this isn't advised. 
@@ -21,7 +21,7 @@ Range | Slot | formula
 5 | legs | `id * 0.0000001`
 6 | feet | `id * 0.000000001`
 
-So for example an attribute for the chest with an id of `11` would look like `{AttributeName:"generic.luck",Name:"generic.luck",Amount:0.00011,Operation:0,UUID:[I;2,3,4,5],Slot:"chest"}`
+So for example an attribute for the chest with an id of `11` would look like: `{AttributeName:"generic.luck",Name:"generic.luck",Amount:0.00011,Operation:0,UUID:[I;2,3,4,5],Slot:"chest"}`.
 
 ### Reading ids
 This system outputs values to 6 player specific scoreboards. 
