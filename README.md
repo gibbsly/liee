@@ -11,7 +11,7 @@ This pack relies on modifying the luck attributes of items to specify ids, the f
 Each slot has a specific ID of attribute associated with it. This does mean an item in a slot can only have a single id associated with it. 
 
 Id | Slot | ID
---- | --- | --- | ---
+--- | --- | ---
 1 | mainhand | `liee:mainhand`
 2 | offhand | `liee:offhand`
 3 | head | `liee:head`
